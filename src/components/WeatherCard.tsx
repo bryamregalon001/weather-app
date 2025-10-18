@@ -80,33 +80,33 @@ export default function WeatherCard({
   const feelsLikeRounded = Math.round(feelsLike);
   
   // Generate a subtle texture based on weather condition
-  const getTextureStyle = () => {
+  const getTextureStyle = (): React.CSSProperties => {
     const conditionLower = condition.toLowerCase();
     
     if (conditionLower.includes('rain') || conditionLower.includes('drizzle')) {
       return {
         backgroundImage: 'radial-gradient(circle at 10% 20%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 90%)',
-        position: 'relative',
-        overflow: 'hidden'
+        position: 'relative' as const,
+        overflow: 'hidden' as const
       };
     } else if (conditionLower.includes('snow')) {
       return {
         backgroundImage: 'radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
-        position: 'relative',
-        overflow: 'hidden'
+        position: 'relative' as const,
+        overflow: 'hidden' as const
       };
     } else if (conditionLower.includes('cloud')) {
       return {
         backgroundImage: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%)',
-        position: 'relative',
-        overflow: 'hidden'
+        position: 'relative' as const,
+        overflow: 'hidden' as const
       };
     } else {
       return {
         backgroundImage: 'linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.1) 75%, rgba(255,255,255,0.1))',
         backgroundSize: '20px 20px',
-        position: 'relative',
-        overflow: 'hidden'
+        position: 'relative' as const,
+        overflow: 'hidden' as const
       };
     }
   };
