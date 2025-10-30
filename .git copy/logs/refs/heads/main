@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 fde5e96a2ef8ef88d29fab1d24517f1330926283 Your Name <your.email@example.com> 1760757970 -0400	commit (initial): Initial commit: Weather app with Next.js and TypeScript
+fde5e96a2ef8ef88d29fab1d24517f1330926283 25f99694807cad879adc8d4658a8f6f2c554e7e4 Your Name <your.email@example.com> 1760758923 -0400	commit: Fix Netlify deployment issues: TypeScript types and Tailwind config
+25f99694807cad879adc8d4658a8f6f2c554e7e4 d916688e2085801420714202abb35187c2e7dba8 Your Name <your.email@example.com> 1760760671 -0400	commit: Add Netlify configuration file
+d916688e2085801420714202abb35187c2e7dba8 8fdb542993c28518965366a04791a656b735df74 Your Name <your.email@example.com> 1760760827 -0400	commit: Remove netlify.toml - let Netlify auto-detect Next.js
+8fdb542993c28518965366a04791a656b735df74 52ad332a3e29b8c984129aa44ca86c618bc32df1 Your Name <your.email@example.com> 1760760964 -0400	commit: Add netlify.toml with explicit build settings
